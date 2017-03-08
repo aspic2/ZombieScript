@@ -1,0 +1,190 @@
+#This is all the info returned with a Line Item using DFP Line Item Service
+#These are the different values you can assign to your return token
+
+(LineItem){
+   orderId = 555555555
+   id = 5555555
+   name = "LINE ITEM NAME"
+   externalId = None
+   orderName = "ORDER NAME"
+   startDateTime =
+      (DateTime){
+         date =
+            (Date){
+               year = 2011
+               month = 8
+               day = 16
+            }
+         hour = 20
+         minute = 14
+         second = 0
+         timeZoneID = "America/New_York"
+      }
+   startDateTimeType = "USE_START_DATE_TIME"
+   autoExtensionDays = 0
+   unlimitedEndDateTime = True
+   creativeRotationType = "EVEN"
+   deliveryRateType = "AS_FAST_AS_POSSIBLE"
+   roadblockingType = "ONE_OR_MORE"
+   lineItemType = "SPONSORSHIP"
+   priority = 3
+   costPerUnit =
+      (Money){
+         currencyCode = "USD"
+         microAmount = 0
+      }
+   valueCostPerUnit =
+      (Money){
+         currencyCode = "USD"
+         microAmount = 0
+      }
+   costType = "CPM"
+   discountType = "PERCENTAGE"
+   discount = 0.0
+   contractedUnitsBought = 0
+   creativePlaceholders[] =
+      (CreativePlaceholder){
+         size =
+            (Size){
+               width = 320
+               height = 50
+               isAspectRatio = False
+            }
+         expectedCreativeCount = 1
+         creativeSizeType = "PIXEL"
+      },
+      (CreativePlaceholder){
+         size =
+            (Size){
+               width = 728
+               height = 90
+               isAspectRatio = False
+            }
+         expectedCreativeCount = 1
+         creativeSizeType = "PIXEL"
+      },
+   environmentType = "BROWSER"
+   companionDeliveryOption = "UNKNOWN"
+   creativePersistenceType = "NOT_PERSISTENT"
+   allowOverbook = False
+   skipInventoryCheck = False
+   skipCrossSellingRuleWarningChecks = False
+   reserveAtCreation = False
+   stats =
+      (Stats){
+         impressionsDelivered = 577283
+         clicksDelivered = 678
+         videoCompletionsDelivered = 0
+         videoStartsDelivered = 0
+         viewableImpressionsDelivered = 0
+      }
+   deliveryData =
+      (DeliveryData){
+         units[] =
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+      }
+   budget =
+      (Money){
+         currencyCode = "USD"
+         microAmount = 0
+      }
+   status = "PAUSED"
+   reservationStatus = "RESERVED"
+   isArchived = False
+   webPropertyCode = None
+   disableSameAdvertiserCompetitiveExclusion = False
+   lastModifiedByApp = "Goog_DFPUI"
+   notes = " "
+   lastModifiedDateTime =
+      (DateTime){
+         date =
+            (Date){
+               year = 2017
+               month = 1
+               day = 26
+            }
+         hour = 8
+         minute = 18
+         second = 9
+         timeZoneID = "PST8PDT"
+      }
+   creationDateTime =
+      (DateTime){
+         date =
+            (Date){
+               year = 2011
+               month = 8
+               day = 16
+            }
+         hour = 19
+         minute = 17
+         second = 38
+         timeZoneID = "America/New_York"
+      }
+   isPrioritizedPreferredDealsEnabled = False
+   adExchangeAuctionOpeningPriority = 0
+   customFieldValues[] =
+      (CustomFieldValue){
+         customFieldId = 3269
+         value =
+            (TextValue){
+               value = "INFO FROM CUSTOM VALUE FIELD"
+            }
+      },
+      (CustomFieldValue){
+         customFieldId = 3029
+         value =
+            (TextValue){
+               value = "INS2321324"
+            }
+      },
+      (DropDownCustomFieldValue){
+         customFieldId = 18869
+         customFieldOptionId = 68069
+      },
+   isSetTopBoxEnabled = False
+   isMissingCreatives = False
+   videoMaxDuration = 0
+   primaryGoal =
+      (Goal){
+         goalType = "DAILY"
+         unitType = "IMPRESSIONS"
+         units = 100
+      }
+   targeting =
+      (Targeting){
+         inventoryTargeting =
+            (InventoryTargeting){
+               targetedPlacementIds[] =
+                  3243629,
+            }
+         technologyTargeting = ""
+         customTargeting =
+            (CustomCriteriaSet){
+               logicalOperator = "OR"
+               children[] =
+                  (CustomCriteriaSet){
+                     logicalOperator = "AND"
+                     children[] =
+                        (CustomCriteria){
+                           keyId = 336509
+                           valueIds[] =
+                              46170738029,
+                           operator = "IS"
+                        },
+                        (CustomCriteria){
+                           keyId = 333269
+                           valueIds[] =
+                              46155880709,
+                           operator = "IS"
+                        },
+                  },
+            }
+      }
+ }
