@@ -2,7 +2,7 @@
 Tool for Google's DFP API. Returns Line Item info from a provided list of LIDs.
 
 Natively in DFP, it is difficult to get Line Item info unless the lines in question 
-have a common grouping (same advertiser, same order). This application allows you to
+have a common grouping (e.g., same advertiser, same order, etc.). This application allows you to
 search for a list of unrelated line items and return information about them in a spreadsheet.
 
 The name comes from the Zombie Report, a monthly report that my ad serving team completes.
@@ -12,7 +12,7 @@ Now, rather than inspecting each one individually, we can run this app to return
 
 
 # Requirements
-The script is in Python 3 and requires a few packages before using. 
+The script is in Python 3, and it requires a few packages before use. 
   - googleads
   - openpyxl
 
@@ -20,16 +20,16 @@ The script is in Python 3 and requires a few packages before using.
 After downloading the project and installing the prerequisite packages:
 - Place your excel file with a column of LIDs in the sourcefiles folder.
     - Update the file path for variable 'source_wb' within main.py
-- Add a path to your authentication file (.yaml) to variable 'auth_file' within main.py
-- Update sourceLIDs in main of main.py to the Excel column hosting your LIDs
-- Run the script and wait for your info
+- Add a path to your authentication file (.yaml) to the variable 'auth_file' within main.py
+- Update sourceLIDs in main() of main.py to the Excel column hosting your LIDs
+- Run the script and wait for your info.
 
 LineItemInfo.txt shows every attribute that can be returned from the request.
-There are more notes in the source file, if you need to customize this app more.
+There are more notes in the source file if you need to customize this app more.
 
 # Licenses
 This application is a derivative of googleads' get_all_line_items.py, under Apache License.
-I grant permission to use edit and distribute my project as needed. Just shout out where you
-got it!
+Outside of their licensing rules, I grant permission to use, edit, and distribute my project as
+desired. Just shout out where you got it!
 
 -MT
