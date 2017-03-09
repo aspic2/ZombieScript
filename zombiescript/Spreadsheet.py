@@ -5,7 +5,7 @@ from openpyxl import Workbook
 from os import getcwd
 
 '''To make a new workbook, set the second parameter 'assemble=' to True
-To use an existing notebook, provide a path
+To use an existing workbook, provide a path
 '''
 class Spreadsheet(object):
     #name will be used for the saved file
