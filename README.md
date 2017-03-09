@@ -1,7 +1,7 @@
 # ZombieScript
 Tool for Google's DFP API. Returns Line Item info from a provided list of LIDs.
 
-Natively in DFP, it is difficult to get Line Item info unless the lines in question 
+Natively in DFP, it is impossible to get bulk Line Item info unless the lines in question 
 have a common grouping (e.g., same advertiser, same order, etc.). This application allows you to
 search for a list of unrelated line items and return information about them in a spreadsheet.
 
