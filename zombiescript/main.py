@@ -16,11 +16,11 @@ from os import getcwd
 
 
 #enter path to authentication file (.yaml file)
-auth_file = "AUTH_FILE_PATH\\googleads.yaml"
+auth_file = getcwd() + "\\SourceFiles\\googleads.yaml"
 
 #put your source workbook in the sourcefiles folder
 #specify the filename at the end of path below
-source_wb = getcwd() + "\\sourcefiles\\YOUR_SOURCE_FILE.xlsx"
+source_wb = getcwd() + "\\SourceFiles\\YOUR_SOURCE_FILE.xlsx"
 
 
 def main(client):
