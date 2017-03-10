@@ -37,5 +37,5 @@ class Spreadsheet(object):
         self.ws.append(values)
 
     def save(self):
-        file_name = str(getcwd() + '\\outputfiles\\' + self.name + '.xlsx')
+        file_name = str(getcwd() + '\\Output\\' + self.name + '.xlsx')
         self.wb.save(filename=file_name)
