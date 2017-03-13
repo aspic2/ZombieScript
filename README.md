@@ -29,7 +29,7 @@ There are more notes in the source file if you need to customize this app more.
 
 # Licenses
 This application is a derivative of googleads' get_all_line_items.py, under Apache License.
-Outside of their licensing rules, I grant permission to use, edit, and distribute my project as
-desired. Just shout out where you got it!
+Beyond their licensing rules, I grant permission to use, edit, and distribute my project as
+desired.
 
 -MT
